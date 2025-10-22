@@ -38,20 +38,40 @@ header {
   padding: 15px 30px;
   border-radius: 30px;
   cursor: pointer;
+  font-weight: bold;
 }
 
 .box-cards {
+  background-color: #f1f8e9;
   padding: 50px 20px;
   text-align: center;
 }
 
 article {
-  width: 220px;
-  height: 328px;
-  border: solid 2px red;
+  width: 250px;
+  height: 400px;
+  border-radius: 12px;
   display: inline-block;
-  margin: 15px;
+  margin: 20px;
+  box-shadow: 0 4px 5px rgba(0, 0, 0, 0.4);
 }
 article img {
   width: 100%;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+  background-size: cover;
+}
+article button {
+  background-color: #66bb6a;
+  border: none;
+  border-radius: 30px;
+  padding: 13px 33px;
+  cursor: pointer;
+  color: white;
+  font-weight: bold;
+}
+article h3,
+article p,
+article button {
+  margin: 20px;
 }/*# sourceMappingURL=style.css.map */
